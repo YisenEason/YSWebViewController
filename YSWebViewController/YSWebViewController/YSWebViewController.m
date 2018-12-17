@@ -6,15 +6,15 @@
 //  Copyright © 2018年 XXXX Technology Co.,Ltd. All rights reserved.
 //
 
-#import "WebViewController.h"
+#import "YSWebViewController.h"
 
-@interface WebViewController () <WKNavigationDelegate, WKUIDelegate>
+@interface YSWebViewController () <WKNavigationDelegate, WKUIDelegate>
 
 @property(nonatomic,strong) WKWebView* webView;
 
 @end
 
-@implementation WebViewController
+@implementation YSWebViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

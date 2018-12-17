@@ -28,7 +28,7 @@
 
 @import WebKit;
 
-@interface WebViewController : UIViewController
+@interface YSWebViewController : UIViewController
 
 @property(nonatomic,strong) NSString* url;
 

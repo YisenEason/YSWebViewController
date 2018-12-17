@@ -15,7 +15,7 @@
 		A914808021C784E100CA72CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A914807F21C784E100CA72CD /* main.m */; };
 		A914808A21C784E100CA72CD /* YSWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A914808921C784E100CA72CD /* YSWebViewControllerTests.m */; };
 		A914809521C784E100CA72CD /* YSWebViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A914809421C784E100CA72CD /* YSWebViewControllerUITests.m */; };
-		A91480A621C785E700CA72CD /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91480A421C785E700CA72CD /* WebViewController.m */; };
+		A91480AB21C7892A00CA72CD /* YSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91480AA21C7892A00CA72CD /* YSWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		A914809021C784E100CA72CD /* YSWebViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSWebViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A914809421C784E100CA72CD /* YSWebViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSWebViewControllerUITests.m; sourceTree = "<group>"; };
 		A914809621C784E100CA72CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A91480A421C785E700CA72CD /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		A91480A521C785E700CA72CD /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		A91480A921C7892A00CA72CD /* YSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSWebViewController.h; sourceTree = "<group>"; };
+		A91480AA21C7892A00CA72CD /* YSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		A914806F21C784DD00CA72CD /* YSWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A91480A321C785E700CA72CD /* WebViewController */,
+				A91480A821C7892A00CA72CD /* YSWebViewController */,
 				A914807021C784DD00CA72CD /* AppDelegate.h */,
 				A914807121C784DD00CA72CD /* AppDelegate.m */,
 				A914807321C784DD00CA72CD /* ViewController.h */,
@@ -136,13 +136,13 @@
 			path = YSWebViewControllerUITests;
 			sourceTree = "<group>";
 		};
-		A91480A321C785E700CA72CD /* WebViewController */ = {
+		A91480A821C7892A00CA72CD /* YSWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A91480A521C785E700CA72CD /* WebViewController.h */,
-				A91480A421C785E700CA72CD /* WebViewController.m */,
+				A91480A921C7892A00CA72CD /* YSWebViewController.h */,
+				A91480AA21C7892A00CA72CD /* YSWebViewController.m */,
 			);
-			path = WebViewController;
+			path = YSWebViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A914807521C784DD00CA72CD /* ViewController.m in Sources */,
+				A91480AB21C7892A00CA72CD /* YSWebViewController.m in Sources */,
 				A914808021C784E100CA72CD /* main.m in Sources */,
 				A914807221C784DD00CA72CD /* AppDelegate.m in Sources */,
-				A91480A621C785E700CA72CD /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

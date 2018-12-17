@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "WebViewController.h"
+#import "YSWebViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +22,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    WebViewController *vc = [[WebViewController alloc] init];
+    YSWebViewController *vc = [[YSWebViewController alloc] init];
     vc.url = @"https://www.baidu.com";
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
