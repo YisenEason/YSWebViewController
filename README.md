@@ -1,2 +1,4 @@
 # YSWebViewController
 封装带网页加载进度条的WebViewController
+
+实际项目中使用到，于是乎简单封装一下，方便下次不同项目需求的调整和使用.
